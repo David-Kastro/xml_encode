@@ -1,10 +1,14 @@
 <?php
 /**
-* xml_encode()
-*
+* xml_encode();
 * This function coverts an array into an XML element.
 *
+*@param array $array /The array you want to covert.
+*@param string $filename /(optional) Name of the xml file without the extension.
+*@param object $xml_obj /(optional) A SimpleXMLElement.
+*@return object
 *@author Davi Duarte <daviduartedf@gmail.com>
+*@version 1.0
 */
 
 function xml_encode(array $array, $filename = '', &$xml_obj = null){
